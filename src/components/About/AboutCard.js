@@ -14,8 +14,8 @@ function AboutCard() {
             I am currently a Full Stack developer who loves developing Web
             Applications
             <br />
-            I am currently in the last year of my Bachelors in INFORMATION
-            TECHNOLOGY a Guru Nanak Khalsa College
+            I am currently pursuing my Masters in Computer Application from
+            Mumbai University.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

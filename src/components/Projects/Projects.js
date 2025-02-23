@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import adidas from "../../Assets/Projects/adidas.png";
+import blogosphere from "../../Assets/Projects/blogosphere.png";
 import ecom from "../../Assets/Projects/ecom.jpg";
 import socmed from "../../Assets/Projects/Socmed.png";
-import pokiAPI from "../../Assets/Projects/pokiAPI.png";
+import chatbuzz from "../../Assets/Projects/chatbuzz.png";
 
 function Projects() {
   return (
@@ -31,11 +31,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={adidas}
+              imgPath={blogosphere}
               isBlog={false}
-              title="Adidas homePage"
-              description="My personal Clone and designing of Adidas website using HTML & CSS only!"
-              ghLink="https://github.com/VedangKanade20/Brushing-up-html-css"
+              title="BlogoSphere A blog Application"
+              description="A blog Application where users can post, read and upload the blogs!"
+              ghLink="https://github.com/VedangKanade20/BlogoSphere-A-Blog-Web-App"
             />
           </Col>
 
@@ -51,11 +51,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={pokiAPI}
+              imgPath={chatbuzz}
               isBlog={false}
-              title="POKEMON STORE"
-              description="Used JavaScript And made a normal Frontend store for various Pokemon."
-              ghLink="https://github.com/VedangKanade20/Pokemon-Store"
+              title="Chat-Buzz - A LiveChat Web Application"
+              description="A live chat application where users can chat with other users live"
+              ghLink="https://github.com/VedangKanade20/Chat-Buzz"
             />
           </Col>
         </Row>
